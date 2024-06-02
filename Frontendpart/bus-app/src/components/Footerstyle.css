@@ -1,0 +1,114 @@
+
+.foot{
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 100%;
+    height: auto;
+    margin-top: 30vh;
+    display: flex;
+    background-image: linear-gradient(to right,rgb(238, 167, 62) ,rgb(41, 41, 201));
+} 
+
+.foot .contact{
+    /* border: 2px solid black; */
+    width: 25%;
+    height: 90%;
+    margin: auto;
+    
+}
+.foot .contact h1{
+    font-family: "poppins";
+    font-size: 22px;
+    /* text-align: center; */
+    margin-top:15% ;
+    margin-left: 9.5%;
+    color: white;
+}
+.foot .contact ul,li{
+    font-family: "poppins";
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    padding: 1.5vh;
+    color: white;
+}
+.foot .feedback{
+    /* border: 2px solid black; */
+    width: 25%;
+    height: 90%;
+    margin: auto;
+}
+.foot .feedback h1{
+    font-family: "poppins";
+    font-size: 20px;
+    /* text-align: center; */
+    margin-top:40% ;
+    margin-left: 5%;
+    color: white;
+}
+
+.foot .feedback .submit{
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 6vh;
+    margin: 5%;
+    display: flex;
+}
+.foot .feedback .submit .ans{
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 100%;
+    border-radius: 15px 0px 0px 15px;
+    border: 1px solid rgb(238, 167, 62);
+    background-color: white;
+}
+
+.foot .feedback .submit .ans input{
+    width: 90%;
+    height: 85%;
+    font-family: "poppins";
+    font-size: 16px;
+    border: none;
+    margin-left: 8%;
+    margin-top: 0.8%;
+}
+.foot .feedback .submit .btn{
+    /* border: 2px solid blue; */
+    width:30%;
+    height: 100%;
+}
+.foot .feedback .submit .btn button{
+    width: 100%;
+    height: 100%;
+    font-family: "poppins";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0.8%;
+    background-color: rgb(238, 167, 62);
+    color: white;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+}
+.foot .aboutus{
+    /* border: 2px solid black; */
+    width: 30%;
+    height: 90%;
+    margin: 5vh;
+    display: flex;
+}
+.foot .aboutus .logo{
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 25vh;
+    background-image: url("C:/Users/Asus/OneDrive/Desktop/2ndyearprojectexhibition/Frontendpart/bus-app/public/bus-manzil-high-resolution-logo.png");
+  background-size: cover;
+  border-radius: 50px;
+}
+
+.foot .aboutus h2{
+    font-family: "poppins";
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    margin-top: 3vh;
+     margin-left: 20px; 
+} 

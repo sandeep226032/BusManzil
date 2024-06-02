@@ -1,0 +1,38 @@
+ .signup-container {
+           background-image: linear-gradient(to bottom,rgb(238, 167, 62) ,rgb(41, 41, 201));
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        max-width: 100%;
+        text-align: center;
+         margin-left: 35%;
+        margin-top: 150px;
+    }
+    
+    h2 {
+        margin-bottom: 20px;
+        color:white;
+    }
+    
+    .sin {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    .sign {
+        background-color: rgb(238, 167, 62);
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    
+    .sign:hover {
+        background-color: #0056b3;
+    }

@@ -1,0 +1,110 @@
+/* .box{
+margin-top: 45px;
+}
+.but{
+background-color: lightgreen;
+height: 40px;
+width: 100px;
+margin-top: 30px;
+}
+#im{
+margin-top: 50px;
+height: 400px;
+width: 100%;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+
+}
+
+header .searchbx{
+    /* border: 2px solid red; */
+    margin-top: 10vh;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+}
+header .searchbx .imglg{
+    width: 33%;
+    /* border: 2px solid blue; */
+    height: 75%;
+    margin-top:2%;
+    margin-left: 2%;
+}
+header .searchbx .imglg img{
+    width: 90%;
+    height: 100%;
+}
+header .searchbx1{
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 9vh;
+    margin-left:10vh ;
+    height: 30vh;
+    width: 55%;
+    /* background-color: rgb(242, 237, 237); */
+    background-image: linear-gradient(to right,rgb(238, 167, 62) ,rgb(41, 41, 201));
+}
+ header .searchbx .bx1{
+
+    /* border: 2px solid black; */
+    height: 49%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+} 
+header .searchbx .bx1 h1{
+    font-family: "poppins";
+    font-size: 20px;
+    margin: auto;
+    color: white;
+}
+header .searchbx .bx1 input{
+    font-family: "poppins";
+    font-size: 17px;
+    margin: auto;
+    margin-left: 0px;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 40px;
+}
+header .searchbx .bx1 .bi{
+    font-family: "poppins";
+    font-size: 18px;
+    margin: auto;
+}
+
+header .searchbx .bx2{
+    /* border: 2px solid black; */
+    height: 49%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+} 
+header .searchbx .bx2 h1{
+    font-family: "poppins";
+    font-size: 18px;
+    margin: auto;
+    margin-left: 43px;
+    color: white;
+}
+header .searchbx .bx2 input{
+    font-family: "poppins";
+    font-size: 17px;
+    margin: auto;
+    margin-left: -244px;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 40px;
+}
+header .searchbx .bx2 button{
+    font-family: "poppins";
+    font-size: 18px;
+    /* margin: auto; */
+    margin-top: 25px;
+    margin-right: 70px;
+    border-radius: 20px;
+    width: 18vh;
+    height: 7vh;
+}

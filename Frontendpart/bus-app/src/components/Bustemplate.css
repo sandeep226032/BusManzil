@@ -1,0 +1,327 @@
+.but{
+    background-color:lightblue;
+    height: 40px;
+    width: 90px;
+    margin-top: 10px;
+}
+header .busopt{
+    border: 2px solid red;
+    width: 95%;
+    height: 15vh;
+    margin-top: 20vh;
+    margin-left: 2.5%; 
+}
+header .busopt .businfo{
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 100%;
+    height: 49%;
+    display: flex;
+    background-color: rgb(238, 167, 62);
+}
+header .busopt .businfo .busno{
+    border: -1px solid rgb(238, 167, 62);
+    width: 14%;
+    height: 100%;
+    /* background-color: blue; */
+}
+header .busopt .businfo .busno h1{
+    font-family:"poppins";
+    font-size: 20px;
+    margin: auto;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 9px;
+    
+    color:white;
+
+}
+header .busopt .businfo .from{
+    /* border: 3px solid blue; */
+    width: 19%;
+    height: 100%;
+    background-color:blue;
+}
+header .busopt .businfo .from h1{
+    font-family:"poppins";
+    font-size: 20px;
+    margin: auto;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 9px;
+ 
+    color:white;
+
+}
+header .busopt .businfo .to{
+    /* border: 1px solid blue; */
+    width: 19%;
+    height: 100%;
+    background-color:blue;
+}
+header .busopt .businfo .to h1{
+    font-family:"poppins";
+    font-size: 20px;
+    margin: auto;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 9px; 
+    color:white;
+
+}
+header .busopt .businfo .time{
+    /* border: 1px solid blue; */
+    width: 22%;
+    height: 100%;
+    background-color:blue;
+}
+header .busopt .businfo .time h1{
+    font-family:"poppins";
+    font-size: 20px;
+    margin: auto;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 9px; 
+    color:white;
+
+}
+header .busopt .businfo .cost{
+    /* border: 1px solid blue; */
+    width: 13%;
+    height: 100%;
+    /* background-color:rgb(17, 223, 41); */
+    background-color: rgb(238, 167, 62);
+}
+header .busopt .businfo .cost h1{
+    font-family:"poppins";
+    font-size: 20px;
+    margin: auto;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 9px; 
+    color:white;
+
+}
+header .busopt .businfo .stops{
+    /* border: 1px solid blue; */
+    width: 13%;
+    height: 100%;
+    background-color:blue;
+}
+header .busopt .businfo .stops h1{
+    font-family:"poppins";
+    font-size: 20px;
+    margin: auto;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 9px; 
+    color:white;
+
+}
+header .busopt .busrst{
+    border: 2px solid blue;
+    width: 99.9%;
+    height: 49%;
+    display: flex;
+}
+
+
+header .busopt .busrst .busno{
+    border: 1px solid rgb(0, 0, 0);
+    width: 13.8%;
+    height: 100%;
+    /* background-color: blue; */
+}
+header .busopt .busrst .busno h1{
+    font-family:"poppins";
+    font-size: 20px;
+    margin: auto;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 9px;
+    
+    color:rgb(0, 0, 0);
+
+}
+header .busopt .busrst .from{
+    border: 2px solid rgb(0, 0, 0);
+    width: 19%;
+    height: 100%;
+}
+header .busopt .busrst .from h1{
+    font-family:"poppins";
+    font-size: 20px;
+    margin: auto;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 9px;
+ 
+    color:rgb(0, 0, 0);
+
+}
+header .busopt .busrst .to{
+    border: 2px solid rgb(0, 0, 0);
+    width: 19%;
+    height: 100%;
+}
+header .busopt .busrst .to h1{
+    font-family:"poppins";
+    font-size: 20px;
+    margin: auto;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 9px;
+ 
+    color:rgb(0, 0, 0);
+
+}
+header .busopt .busrst .time{
+    border: 2px solid rgb(0, 0, 0);
+    width: 21.5%;
+    height: 100%;
+}
+header .busopt .busrst .time h1{
+    font-family:"poppins";
+    font-size: 20px;
+    margin: auto;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 9px;
+ 
+    color:rgb(0, 0, 0);
+
+}
+header .busopt .busrst .cost{
+    border: 2px solid rgb(0, 0, 0);
+    width: 13%;
+    height: 100%;
+}
+header .busopt .busrst .cost h1{
+    font-family:"poppins";
+    font-size: 22px;
+    margin: auto;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 9px;
+ 
+    color:rgb(71, 239, 10);
+
+}
+header .busopt .busrst .stops{
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 13%;
+    height: 100%;
+}
+header .busopt .busrst .stops h1{
+    font-family:"poppins";
+    font-size: 20px;
+    margin: auto;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 9px; 
+    color:rgb(0, 0, 0);
+
+}
+header .busanimation{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+header .busanimation .img2{
+    /* border: 2px solid black; */
+    height: 95%;
+    width: 15%;
+    float: right;
+
+}
+header .busanimation .img2 img{
+    height: 100%;
+    width: 100%;
+}
+#bibox{
+    display: flex;
+}
+.stop{
+    height: 40px;
+    width:80px;
+    /* border: 2px solid red; */
+    margin-left: 600px;
+}
+.time{
+     height: 40px;
+    width:80px;
+    /* border: 2px solid red; */
+}
+#container{
+/* border: 2px solid black; */
+height: 300px;
+width: 350px;
+display: flex;
+flex-direction: column;
+margin-left: 1110px;
+}
+#heading{
+    display: flex;
+    flex-direction: row;
+}
+#content{
+
+    width: 350px;
+    
+    display: flex;
+    margin-top: 10px;
+   
+}
+#s{
+padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  height: 25px;
+  width: 140px;
+  font-weight: bold;
+  color: white;
+background-color: rgb(238, 167, 62);
+  border: none;
+}
+#t{
+padding: 10px 20px;
+width: 120px;
+height: 25px;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+ background-color:blue;
+  border: none;
+  margin-left: 30px;
+}
+#st{
+padding: 10px 20px;
+width: 130px;
+  margin: 0 13px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color:blue;
+  /* border: 2px solid red; */
+}
+#sc{
+padding: 10px 20px;
+width: 130px;
+   margin: 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(238, 167, 62);
+  /* border: 2px solid red; */
+}
+.box2{
+    width: 110px;
+height: 35px;
+/* border: 2px solid red; */
+}
+.box1{
+    width: 110px;
+height: 35px;
+/* border: 2px solid red; */
+}
